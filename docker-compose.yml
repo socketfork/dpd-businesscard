@@ -14,7 +14,7 @@ services:
       - META_TITLE=Damien Paul Dong
       - META_DESCRIPTION=Damien Paul Dong
       - META_AUTHOR=Damien Paul Dong
-      - META_KEYWORDS=Artist, Creative Technologist, Experience Designer, Consultant, Arts Evangelist
+      - META_KEYWORDS=Artist, Technologist, Experience Designer, Experiential Marketing, Consultant, Interactive Designer, Multimedia Engineer, Project Manager
       - LANG=en
       - META_INDEX_STATUS=noindex
       - THEME=Dark
@@ -24,7 +24,7 @@ services:
       - AVATAR_2X_URL=assets/dpd_logo_white_400.png
       - AVATAR_ALT=Damien Paul Dong monogram logo
       - NAME=Damien Paul Dong
-      - BIO=Artist, Creative Technologist, Experience Designer, Consultant, Arts Evangelist
+      - BIO=Artist, Technologist, Experience Designer
       - FOOTER=Keep in touch!
       # GITHUB=https://github.com/timothystewart6
       # TWITTER=https://twitter.com/TechnoTimLive
