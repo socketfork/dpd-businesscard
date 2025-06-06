@@ -1,4 +1,4 @@
-# 🔗 LittleLink-Server
+# Forked from littlelink-server
 
 LittleLink is a lightweight DIY alternative to services like [Linktree](https://linktr.ee)
 and [many.link](https://many.link/).
@@ -198,6 +198,12 @@ To skip express from logging these calls, add the environment variable:
 
 ```bash
 SKIP_HEALTH_CHECK_LOGS=true
-``` 
+```
+
+### Docker Dependencies
+
+The deployment depnds on the following Docker Hub images:
+ - jrcs/letsencrypt-nginx-proxy-companion:latest
+ - jwilder/nginx-proxy:latest
   
 
