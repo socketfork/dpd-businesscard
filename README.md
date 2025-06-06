@@ -1,25 +1,11 @@
-# Forked from littlelink-server
+# A DIY digital business card deployment
 
-LittleLink is a lightweight DIY alternative to services like [Linktree](https://linktr.ee)
-and [many.link](https://many.link/).
+A DIY digital business card proof-of-concept in the same lane as a "dot.cards" but at a fraction of the cost. Based on the littlelink-server project from technotim.
 
-Inspired by [littlelink](https://github.com/sethcottle/littlelink).
+## Forked from littlelink-server
 
- ![image](https://user-images.githubusercontent.com/1322205/174909247-2515ab5c-fd39-475d-b5dc-9c0a1ea20d6e.png)
+This is based on the amazing solution developed by @technotim that can be found at: techno-tim/littlelink-server
 
-## 👇 What is LittleLink-Server?
-
-LittleLink-Server is based on the great work from [littlelink](https://github.com/sethcottle/littlelink), a lightweight DIY alternative to services like [Linktree](https://linktr.ee) and [many.link](https://many.link/). LittleLink and LittleLink-Server is built using [Skeleton](http://getskeleton.com/), a dead simple, responsive boilerplate—we just stripped out some additional code you wouldn't need and added in branded styles for popular services. 😊
-
-It takes the same simple approach to a link page and hosts it within a NodeJS server with React Server Side Rendering, containerized for you to use. Now, customizing `LittleLink` with `littlelink-server` is as easy as passing in some environment variables. If you need help configuring this, please see this [video](https://youtu.be/42SqfI_AjXU) at explains everything and a live example at [links.technotim.live](https://links.technotim.live/).
-
-## ⭐ Features
-
-- Over 60+ brand buttons with more able to be requested
-- Customisable Themes
-- Analytics Support
-- Health Check Support
-- A fully customisable docker-compose 
 
 ## 🚀 Getting Started
 
@@ -121,6 +107,13 @@ docker run -d \
   ghcr.io/techno-tim/littlelink-server:latest
 ```
 
+### Docker Dependencies
+
+The deployment depnds on the following Docker Hub images:
+ - jrcs/letsencrypt-nginx-proxy-companion:latest
+ - jwilder/nginx-proxy:latest
+
+
 ### Using Kubernetes
 
 [Unofficial helm chart provided by k8s-at-home](https://github.com/k8s-at-home/charts/tree/master/charts/stable/littlelink-server)
@@ -199,11 +192,5 @@ To skip express from logging these calls, add the environment variable:
 ```bash
 SKIP_HEALTH_CHECK_LOGS=true
 ```
-
-### Docker Dependencies
-
-The deployment depnds on the following Docker Hub images:
- - jrcs/letsencrypt-nginx-proxy-companion:latest
- - jwilder/nginx-proxy:latest
   
 
