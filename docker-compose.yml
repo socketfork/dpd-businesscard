@@ -66,7 +66,7 @@ services:
       # DEVTO=https://dev.to/
       # UMAMI_WEBSITE_ID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
       # UMAMI_APP_URL=https://your-umami-app.com
-      - BUTTON_ORDER=PORTFOLIO,MOBILE,EMAIL,VCARD,LINKED_IN,INSTAGRAM,DISCORD,SOUND_CLOUD,FACEBOOK
+      - BUTTON_ORDER=PORTFOLIO,MOBILE,EMAIL,VCARD,LINKED_IN,INSTAGRAM,DISCORD,SOUND_CLOUD,FACEBOOK,ABOUT
       # PAYPAL=https://www.paypal.me/user
       # SLACK=https://slack.com/
       # STACKOVERFLOW=https://stackoverflow.com/
@@ -120,13 +120,13 @@ services:
       # TWITTER_CREATOR=@TechnoTimLive
       # SHARE=https://technotim.live
       # FIVEHUNDREDPX=https://500px.com/
-      - CUSTOM_BUTTON_TEXT=Portfolio,Mobile,vCard
-      - CUSTOM_BUTTON_URL=https://damienpauldong.com,tel://+16173200092,assets/dpd_vcard.vcf
-      - CUSTOM_BUTTON_COLOR=#444444,#664466,#669944
-      - CUSTOM_BUTTON_TEXT_COLOR=#ffffff,#ffffff,#ffffff
-      - CUSTOM_BUTTON_ALT_TEXT=Portfolio,Mobile,vCard
+      - CUSTOM_BUTTON_TEXT=Portfolio,Mobile,vCard,About This Card
+      - CUSTOM_BUTTON_URL=https://damienpauldong.com,tel://+16173200092,assets/dpd_vcard.vcf,https://damienpauldong.com/business-card
+      - CUSTOM_BUTTON_COLOR=#444444,#664466,#669944,#888888
+      - CUSTOM_BUTTON_TEXT_COLOR=#ffffff,#ffffff,#ffffff,#ffffff
+      - CUSTOM_BUTTON_ALT_TEXT=Portfolio,Mobile,vCard,About
       - CUSTOM_BUTTON_NAME=PORTFOLIO,MOBILE,VCARD
-      - CUSTOM_BUTTON_ICON=fas fa-home,fas fa-phone,fas fa-id-card
+      - CUSTOM_BUTTON_ICON=fas fa-home,fas fa-phone,fas fa-id-card,fas fa-question-circle
       - VIRTUAL_HOST=hello.damienpauldong.com
       - LETSENCRYPT_HOST=hello.damienpauldong.com
 
