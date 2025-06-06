@@ -25,7 +25,7 @@ services:
       - AVATAR_ALT=Damien Paul Dong monogram logo
       - NAME=Damien Paul Dong
       - BIO=Artist, Technologist, Experience Designer
-      - FOOTER=Keep in touch!<br /><a href="https://damienpauldong.com/business-card">About this card</a>
+      - FOOTER=Keep in touch!
       # GITHUB=https://github.com/timothystewart6
       # TWITTER=https://twitter.com/TechnoTimLive
       - INSTAGRAM=https://www.instagram.com/djdamienpaul

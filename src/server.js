@@ -255,6 +255,8 @@ server
         <div id="root">${markup}</div>
         <script>window.env = ${serialize(runtimeConfig)};</script>
         ${jsScriptTagsFromAssets(assets, 'client', ' defer crossorigin')}
+
+        <div><p class="footer"><a href="">About this card</a></p></div>
     </body>
     </html>`,
       );
