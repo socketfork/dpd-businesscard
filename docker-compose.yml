@@ -137,7 +137,6 @@ services:
       - no-new-privileges:true
     networks:
       - proxynet
-    restart: unless-stopped
 
 networks:
   proxynet:
