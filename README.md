@@ -110,8 +110,8 @@ docker run -d \
 ### Docker Dependencies
 
 The deployment depnds on the following Docker Hub images:
- - jrcs/letsencrypt-nginx-proxy-companion:latest
- - jwilder/nginx-proxy:latest
+ - jrcs/letsencrypt-nginx-proxy-companion
+ - jwilder/nginx-proxy
 
 
 ### Using Kubernetes
