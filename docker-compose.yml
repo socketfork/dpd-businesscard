@@ -122,7 +122,7 @@ services:
       # FIVEHUNDREDPX=https://500px.com/
       - CUSTOM_BUTTON_TEXT=Portfolio,Mobile,vCard,About This Card
       - CUSTOM_BUTTON_URL=https://damienpauldong.com,tel://+16173200092,assets/dpd_vcard.vcf,https://damienpauldong.com/business-card
-      - CUSTOM_BUTTON_COLOR=#444444,#664466,#669944,#888888
+      - CUSTOM_BUTTON_COLOR=#444444,#664466,#669944,#886666
       - CUSTOM_BUTTON_TEXT_COLOR=#ffffff,#ffffff,#ffffff,#ffffff
       - CUSTOM_BUTTON_ALT_TEXT=Portfolio,Mobile,vCard,About
       - CUSTOM_BUTTON_NAME=PORTFOLIO,MOBILE,VCARD,ABOUT
