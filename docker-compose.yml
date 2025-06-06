@@ -125,7 +125,7 @@ services:
       - CUSTOM_BUTTON_COLOR=#444444,#664466,#669944,#888888
       - CUSTOM_BUTTON_TEXT_COLOR=#ffffff,#ffffff,#ffffff,#ffffff
       - CUSTOM_BUTTON_ALT_TEXT=Portfolio,Mobile,vCard,About
-      - CUSTOM_BUTTON_NAME=PORTFOLIO,MOBILE,VCARD
+      - CUSTOM_BUTTON_NAME=PORTFOLIO,MOBILE,VCARD,ABOUT
       - CUSTOM_BUTTON_ICON=fas fa-home,fas fa-phone,fas fa-id-card,fas fa-question-circle
       - VIRTUAL_HOST=hello.damienpauldong.com
       - LETSENCRYPT_HOST=hello.damienpauldong.com
