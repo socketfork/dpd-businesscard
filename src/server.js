@@ -195,8 +195,8 @@ server
                 color: 0x7a7a7a,
                 backgroundColor: 0x292929
               })
-            -->
             </script>
+            -->
 	      <!-- DPD: End Custom CSS/Script Overrides -->
         <link rel="icon" type="image/png" href="${runtimeConfig.FAVICON_URL}">
         ${
