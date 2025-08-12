@@ -182,9 +182,9 @@ server
             <script src="src/three.min.js"></script>
             <script src="src/vanta.net.min.js"></script>
             <!-- 
-              <script>
+            <script>
               VANTA.NET({
-                el: "#your-element-selector",
+                el: "#root",
                 mouseControls: true,
                 touchControls: true,
                 gyroControls: false,
