@@ -179,8 +179,8 @@ server
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,100i,300,300i,400,400i,700,700i,900,900i">
             <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i,900,900i"> -->
             <link rel="stylesheet" href="css/dpd-custom.css">
-            <script src="src/three.min.js"></script>
-            <script src="src/vanta.net.min.js"></script>
+            <script src="scripts/three.min.js"></script>
+            <script src="scripts/vanta.net.min.js"></script>
             <script>
               VANTA.NET({
                 el: "#root",
