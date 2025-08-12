@@ -268,9 +268,11 @@ server
             <!-- End Matomo -->`
             : ''
         }
+        <div id="background">
         <div id="root">${markup}</div>
         <script>window.env = ${serialize(runtimeConfig)};</script>
         ${jsScriptTagsFromAssets(assets, 'client', ' defer crossorigin')}
+        </div>
     </body>
     </html>`,
       );
