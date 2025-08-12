@@ -174,12 +174,28 @@ server
         <link rel="stylesheet" href="css/littlelink.css">
         <link rel="stylesheet" href="css/brands.css">
         ${cssLinksFromAssets(assets, 'client')}
-        <!-- DPD: Custom CSS Overrides -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,300,300i,400,400i,700,700i,900,900i">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,100i,300,300i,400,400i,700,700i,900,900i">
-	<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i,900,900i"> -->
-        <link rel="stylesheet" href="css/dpd-custom.css">
-	<!-- DPD: End Custom CSS Overrides -->
+        <!-- DPD: Custom CSS/Script Overrides -->
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,300,300i,400,400i,700,700i,900,900i">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,100i,300,300i,400,400i,700,700i,900,900i">
+            <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i,900,900i"> -->
+            <link rel="stylesheet" href="css/dpd-custom.css">
+            <script src="src/three.min.js"></script>
+            <script src="src/vanta.net.min.js"></script>
+            <script>
+            VANTA.NET({
+              el: "#your-element-selector",
+              mouseControls: true,
+              touchControls: true,
+              gyroControls: false,
+              minHeight: 200.00,
+              minWidth: 200.00,
+              scale: 1.00,
+              scaleMobile: 1.00,
+              color: 0x7a7a7a,
+              backgroundColor: 0x292929
+            })
+            </script>
+	      <!-- DPD: End Custom CSS/Script Overrides -->
         <link rel="icon" type="image/png" href="${runtimeConfig.FAVICON_URL}">
         ${
           runtimeConfig.GA_TRACKING_ID
