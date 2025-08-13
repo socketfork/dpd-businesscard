@@ -268,7 +268,7 @@ server
             <!-- End Matomo -->`
             : ''
         }
-        <div id="background">
+        <div id="vantabackground" id="vantabackground">
         <div id="root">${markup}</div>
         <script>window.env = ${serialize(runtimeConfig)};</script>
         ${jsScriptTagsFromAssets(assets, 'client', ' defer crossorigin')}
