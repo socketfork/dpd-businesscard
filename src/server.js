@@ -258,7 +258,7 @@ server
                 minWidth: 200.00,
                 scale: 1.00,
                 scaleMobile: 1.00,
-                color: 0x292929
+                color: 0x191919
               })
         </script>
         <!-- DPD: End dynamic background script -->
