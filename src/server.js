@@ -249,22 +249,8 @@ server
         <div id="dynamicbackground">
           <!-- DPD: Start dynamic background script -->
           <script>
-            <!--
-              VANTA.NET({
-                el: "#dynamicbackground",
-                mouseControls: true,
-                touchControls: true,
-                gyroControls: true,
-                minHeight: 200.00,
-                minWidth: 200.00,
-                scale: 1.00,
-                scaleMobile: 1.50,
-                color: 0x555555,
-                backgroundColor: 0x292929
-              })
-            -->
               VANTA.WAVES({
-                el: "#your-element-selector",
+                el: "#dynamicbackground",
                 mouseControls: true,
                 touchControls: true,
                 gyroControls: false,
