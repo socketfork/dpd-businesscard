@@ -24,7 +24,7 @@ services:
       - AVATAR_2X_URL=assets/dpd_logo_white_400.png
       - AVATAR_ALT=Damien Paul Dong monogram logo
       - NAME=Damien Paul Dong
-      - BIO=Artist, Technologist, Experience Designer
+      - BIO=Artist, Technologist, &#10;Experience Designer
       - FOOTER=Keep in touch!
       # GITHUB=https://github.com/timothystewart6
       # TWITTER=https://twitter.com/TechnoTimLive
