@@ -257,7 +257,7 @@ server
                 minHeight: 200.00,
                 minWidth: 200.00,
                 scale: 1.00,
-                scaleMobile: 1.00,
+                scaleMobile: 1.50,
                 shininess: 15.00,
                 waveSpeed: 0.75,
                 color: 0x202020
