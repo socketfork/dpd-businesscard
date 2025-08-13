@@ -256,7 +256,7 @@ server
                 gyroControls: false,
                 minHeight: 200.00,
                 minWidth: 200.00,
-                scale: 1.00,
+                scale: 1.25,
                 scaleMobile: 1.50,
                 shininess: 15.00,
                 waveSpeed: 0.75,
