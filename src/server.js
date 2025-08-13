@@ -183,7 +183,7 @@ server
             <script src="scripts/vanta.net.min.js"></script>
             <script>
               VANTA.NET({
-                el: "#root",
+                el: "#vantabackground",
                 mouseControls: true,
                 touchControls: true,
                 gyroControls: false,
