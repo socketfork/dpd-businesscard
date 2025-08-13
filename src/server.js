@@ -258,6 +258,8 @@ server
                 minWidth: 200.00,
                 scale: 1.00,
                 scaleMobile: 1.00,
+                shininess: 10.00,
+                waveSpeed: 0.65,
                 color: 0x202020
               })
         </script>
