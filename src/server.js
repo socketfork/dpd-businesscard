@@ -181,20 +181,6 @@ server
             <link rel="stylesheet" href="css/dpd-custom.css">
             <script src="scripts/three.min.js"></script>
             <script src="scripts/vanta.net.min.js"></script>
-            <script>
-              VANTA.NET({
-                el: "#vantabackground",
-                mouseControls: true,
-                touchControls: true,
-                gyroControls: false,
-                minHeight: 200.00,
-                minWidth: 200.00,
-                scale: 1.00,
-                scaleMobile: 1.00,
-                color: 0x7a7a7a,
-                backgroundColor: 0x292929
-              })
-            </script>
 	      <!-- DPD: End Custom CSS/Script Overrides -->
         <link rel="icon" type="image/png" href="${runtimeConfig.FAVICON_URL}">
         ${
@@ -268,7 +254,23 @@ server
             <!-- End Matomo -->`
             : ''
         }
-        <div id="vantabackground" id="vantabackground">
+        <div id="vantabackground">
+            <!-- DPD: Start dynamic background script -->
+            <script>
+              VANTA.NET({
+                el: "#vantabackground",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                color: 0x7a7a7a,
+                backgroundColor: 0x292929
+              })
+            </script>
+            <!-- DPD: End dynamic background script -->
         <div id="root">${markup}</div>
         <script>window.env = ${serialize(runtimeConfig)};</script>
         ${jsScriptTagsFromAssets(assets, 'client', ' defer crossorigin')}
