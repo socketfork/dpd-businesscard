@@ -246,6 +246,7 @@ server
 
     </head>
     <body>
+        <div id="vantabackground">
         ${
           runtimeConfig.MATOMO_URL && runtimeConfig.MATOMO_SITE_ID
             ? `
@@ -254,7 +255,6 @@ server
             <!-- End Matomo -->`
             : ''
         }
-        <div id="vantabackground">
             <!-- DPD: Start dynamic background script -->
             <script>
               VANTA.NET({
