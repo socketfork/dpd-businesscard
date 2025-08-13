@@ -245,8 +245,8 @@ server
         }
 
     </head>
-    <body>
-        <div id="vantabackground">
+    <body id="dynamicbackground">
+        <div>
         ${
           runtimeConfig.MATOMO_URL && runtimeConfig.MATOMO_SITE_ID
             ? `
@@ -258,7 +258,7 @@ server
             <!-- DPD: Start dynamic background script -->
             <script>
               VANTA.NET({
-                el: "#vantabackground",
+                el: "#dynamicbackground",
                 mouseControls: true,
                 touchControls: true,
                 gyroControls: true,
@@ -266,7 +266,7 @@ server
                 minWidth: 200.00,
                 scale: 1.00,
                 scaleMobile: 1.00,
-                color: 0x7a7a7a,
+                color: 0x555555,
                 backgroundColor: 0x292929
               })
             </script>
