@@ -252,7 +252,7 @@ server
               VANTA.NET({
                 el: "#dynamicbackground",
                 mouseControls: true,
-                touchControls: true,
+                touchControls: false,
                 gyroControls: true,
                 minHeight: 200.00,
                 minWidth: 200.00,
